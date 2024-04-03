@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Apex</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-xxl-2 col-cm-6">
+                <img src="./img/logo.svg" alt="loggo">
+              </div>
+              <div class="col-xxl-4 col-cm-6">
+                <ul class="d-flex gap-2 list-unstyled">
+                    <li>
+                        <a href="#" class="a">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="a">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="a">
+                            Invest
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="a">
+                            Reviews
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="a">
+                            Contacts
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="./img/menu.svg">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><button class="dropdown-item" type="button">Action</button></li>
+                              <li><button class="dropdown-item" type="button">Another action</button></li>
+                              <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                          </div>
+                    </li>
+                </ul>
+              </div>
+              <div class="col-xxl-2 col-cm-6">
+                <ul class="d-flex gap-1 list-unstyled">
+                    <li>
+                        <a href="#">
+                            <img src="./img/tweet.svg" alt="tweet">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/fcebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/youtube.svg" alt="youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/tg.svg" alt="telegram">
+                        </a>
+                    </li>
+                </ul>
+              </div>
+              <div class="col-xxl-1 col-cm-6">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./img/eng.svg"> engs
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item active" href="#">ru</a></li>
+                      <li><a class="dropdown-item" href="#">ua</a></li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-xxl-3 col-cm-6">
+                <ul class="d-flex gap-1 list-unstyled">
+                    <li>
+                        <button type="button" class="btn btn-primary">Dashboards</button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="blue">
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-xxl-10 col-cm-6">
+                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        <!-- 1 -->
+                        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck1">
+                            <img src="./img/Subtract.svg"> Dashboard
+                        </label>
+                      <!-- 2 -->
+                        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck2">
+                            <img src="./img/deposits.svg"> Deposits
+                        </label>
+                      <!-- 3-->
+                        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck3">
+                            <img src="./img/transactions.svg"> Transactions
+                        </label>
+                        <!-- 4 --> 
+                        <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck4">
+                            <img src="./img/card.svg"> Withdraw
+                        </label>
+                        <!-- 5 -->
+                        <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck5">
+                            <img src="./img/partners.svg"> Partners
+                        </label>
+                        <!-- 6 -->
+                        <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck6">
+                            <img src="./img/up.svg"> Top Up
+                        </label>
+                        <!-- 7 -->
+                        <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btncheck7">
+                            <img src="./img/setting.svg"> Settings
+                        </label>
+                        <button type="button" class="btn btn-primary">
+                            <img src="./img/notification.svg"> <span class="badge text-bg-secondary">4</span>
+                          </button>
+                       
+                      </div>
+                  </div>
+                  <div class="col-xxl-2 col-cm-6">
+                    <button type="button" class="btn btn-outline-light">
+                        <img src="./img/add.svg"> New deposit
+                    </button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="all d-flex justify-content-center gap-2 align-baseline">
+            <div class="black-all">
+                <div class="black">
+                    <div class="container text-center">
+                        <div class="row">
+                          <div class="col-xxl-7 col-cm-6">
+                            <p class="white"> My deposits<p>
+                                <span class="align-baseline grey">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</span>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-cm-6">
+                                <ul class="d-flex gap-2 list-unstyled">
+                                    <li>
+                                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                            <div class="container-fluid">
+                                              <a class="navbar-brand" href="#">Filter by:</a>
+                                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                              </button>
+                                              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                                <ul class="navbar-nav">
+                                                  <li class="nav-item dropdown">
+                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Start date
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </nav>
+                                    </li>
+                                    <li>
+                                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                            <div class="container-fluid">
+                                              <a class="navbar-brand" href="#">Sort by currency:</a>
+                                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                              </button>
+                                              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                                <ul class="navbar-nav">
+                                                  <li class="nav-item dropdown">
+                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        USD
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </nav>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                      </div>
+                </div>
+                <div class="grey">
+                    <div class="container text-center deposit">
+                        <div class="row">
+                            <div class="col-xxl-1 col-sm-6">
+                                Deposit
+                            </div>
+                            <div class="col-xxl-1"></div>
+                            <div class="col-xxl-1 col-sm-6">
+                                Status
+                            </div>
+                            <div class="col-xxl-1"></div>
+                            <div class="col-xxl-1 col-sm-6">
+                                Invested
+                            </div>
+                            <div class="col-xxl-1"></div>
+                            <div class="col-xxl-3 col-sm-6">
+                                Total profit
+                            </div>
+                            <div class="col-xxl-3 col-sm-6">
+                                Re-invest
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="black-second">
+                    <div class="container text-center">
+                                <div class="gaga">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row justify-content-end">
+                                                <div class="col-auto">
+                                                    <input type="checkbox" id="gaga-checkbox1">
+                                                    <label for="gaga-checkbox1"></label>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-start">
+                                                <div class="param d-flex gap-2 col-xl-12 col-cm-6"> 
+                                                    <h2>2.4%</h2>
+                                                    <p class="param-p">daily for 30 days</p>
+                                                    <p class="prp">+1.000</p>
+                                                    <p class="prp-p">10.000.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="row"> 
+                                                <div class="progress col-xl-2 col-cm-6" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                                                </div>
+                                                <div class="col-xl-3 col-cm-6">
+                                                    <P class="starts">Start: <span class="june">10 June 2021 13:00:49 p.m.</span></P>
+                                                </div>
+                                                <div class="col-xl-3 col-cm-6">
+                                                    <p class="starts">End:<span class="june">30 August 2021 13:00:49 p.m.</span> </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gaga">
+                                    <input type="checkbox" id="gaga-checkbox2">
+                                    <label for="gaga-checkbox2">Выбрать Гагу 2</label>
+                                    <div class="row justify-content-end">
+                                        <div class="param d-flex gap-2 col-xl-12 col-cm-6"> 
+                                            <h2>2.4%</h2>
+                                            <p class="param-p">daily for 30 days</p>
+                                            <p class="prp">+1.000</p>
+                                            <p class="prp-p">10.000.000</p>
+                                        </div>
+                                    </div>
+                                    <div class="row"> 
+                                        <div class="progress col-xl-2 col-cm-6" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                                        </div>
+                                        <div class="col-xl-3 col-cm-6">
+                                            <P class="starts">Start: <span class="june">10 June 2021 13:00:49 p.m.</span></P>
+                                        </div>
+                                        <div class="col-xl-3 col-cm-6">
+                                            <p class="starts">End:<span class="june">30 August 2021 13:00:49 p.m.</span> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gaga">
+                                    <input type="checkbox" id="gaga-checkbox3">
+                                    <label for="gaga-checkbox3"></label>
+                                    <div class="row justify-content-end">
+                                        <div class="param d-flex gap-2 col-xl-12 col-cm-6"> 
+                                            <h2>2.4%</h2>
+                                            <p class="param-p">daily for 30 days</p>
+                                            <p class="prp">+1.000</p>
+                                            <p class="prp-p">10.000.000</p>
+                                        </div>
+                                    </div>
+                                    <div class="row"> 
+                                        <div class="progress col-xl-2 col-cm-6" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                                        </div>
+                                        <div class="col-xl-3 col-cm-6">
+                                            <P class="starts">Start: <span class="june">10 June 2021 13:00:49 p.m.</span></P>
+                                        </div>
+                                        <div class="col-xl-3 col-cm-6">
+                                            <p class="starts">End:<span class="june">30 August 2021 13:00:49 p.m.</span> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gaga">
+                                <input type="checkbox" id="gaga-checkbox3">
+                                <label for="gaga-checkbox3"></label>
+                                <div class="row justify-content-end">
+                                    <div class="param d-flex gap-2 col-xl-12 col-cm-6"> 
+                                        <h2>2.4%</h2>
+                                        <p class="param-p">daily for 30 days</p>
+                                        <p class="prp">+1.000</p>
+                                        <p class="prp-p">10.000.000</p>
+                                    </div>
+                                </div>
+                                <div class="row"> 
+                                    <div class="progress col-xl-2 col-cm-6" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                                    </div>
+                                    <div class="col-xl-3 col-cm-6">
+                                        <P class="starts">Start: <span class="june">10 June 2021 13:00:49 p.m.</span></P>
+                                    </div>
+                                    <div class="col-xl-3 col-cm-6">
+                                        <p class="starts">End:<span class="june">30 August 2021 13:00:49 p.m.</span> </p>
+                                    </div>
+                                </div>
+                                </div>
+                               <div class="gaga">
+                                <input type="checkbox" id="gaga-checkbox3">
+                                <label for="gaga-checkbox3"></label>
+                                <div class="row justify-content-end">
+                                    <div class="param d-flex gap-2 col-xl-12 col-cm-6"> 
+                                        <h2>2.4%</h2>
+                                        <p class="param-p">daily for 30 days</p>
+                                        <p class="prp">+1.000</p>
+                                        <p class="prp-p">10.000.000</p>
+                                    </div>
+                                </div>
+                                <div class="row"> 
+                                    <div class="progress col-xl-2 col-cm-6" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                                    </div>
+                                    <div class="col-xl-3 col-cm-6">
+                                        <P class="starts">Start: <span class="june">10 June 2021 13:00:49 p.m.</span></P>
+                                    </div>
+                                    <div class="col-xl-3 col-cm-6">
+                                        <p class="starts">End:<span class="june">30 August 2021 13:00:49 p.m.</span> </p>
+                                    </div>
+                                </div>
+                               </div>
+                   </div>
+                </div>
+            </div>
+            <div class="sseond-part">
+                <div class="container text-center">
+                    <div class="info">
+                        <div class="row">
+                            <div class="col-xxl-12 col-sm-6">
+                              <h3 class="infoh">Info</h3>
+                            </div>
+                            <div class="col-xxl-2 col-sm-6"></div>
+                          </div>
+                          <div class="row">
+                              <div class="col-xxl-12 col-sm-6">
+                                  <p class="info-p">of deposits</p>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div>
+                                  <div id="carouselExample" class="carousel slide des">
+                                      <div class="carousel-inner ">
+                                        <div class="carousel-item active">
+                                          <img src="./img/circles.svg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./img/circles.svg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./img/circles.svg" class="d-block w-100" alt="...">
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                                    </div>
+                              </div>
+                          </div>
+                    <div class="container text-center background">
+                        <!-- <div class="background"> -->
+                            <div class="row">
+                                <div class="col-xxl-9 col-sm-3">
+                                    <p class="blue-p">Total earned</p> 
+                                </div>
+                                <div class="col-xxl-2 col-sm-3">
+                                   <p class="blue-p">10000</p> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xxl-9 col-sm-3">
+                                   <p class="blue-p">Deposited</p> 
+                                </div>
+                                <div class="col-xxl-2 col-sm-3">
+                                    <p class="blue-p">17.000</p> 
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xxl-12 col-sm-6">
+                                <p class="new-p">
+                                    Velit officia consequat duis enim velit mollit. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="img">
+            <img src="./img/Frame 885.svg">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-2 col-sm-6">
+                    <img src="./img/logo.svg" alt="logo">
+                </div>
+                <div class="col-xxl-4 col-sm-6">
+                    <div class="company-info">
+                        <a href="#">
+                            Check our company
+                            <button class="btn btn-primary">></button>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="grey">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    </div>
+                </div>
+                <div class="col-xxl-1 col-sm-6">
+                    <ul>
+                        <li><a href="#" class="grey">Home</a></li>
+                        <li><a href="#" class="grey">Investment</a></li>
+                        <li><a href="#" class="grey">FAQ</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-xxl-1 col-sm-6">
+                    <ul>
+                        <li><a href="#" class="grey">Reviews</a></li>
+                        <li><a href="#" class="grey">About</a></li>
+                        <li><a href="#" class="grey">Contacts</a></li>
+                    </ul>     
+                  </div>
+                  <div class="col-2"></div>
+                  <div class="col-2">
+                    <button class="btn btn-outline-primary">Start Investments</button>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-3 col-sm-6">
+                    <p class="privat">© 2021 Adex Capital Limited. All rights are reserved.</p>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-2">
+                    <ul class="d-flex gap-2 list-unstyled">
+                        <li>
+                            <a href="#">
+                                <img src="./img/tweet.svg" alt="tweet">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/youtube.svg" alt="youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/fcebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/tg.svg" alt="telegram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <ul class="d-flex gap-2 list-unstyled">
+                        <li>
+                            <a href="#" class="a">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="a">
+                                Privacy Policy
+                            </a>
+                        </li>
+                    </ul> 
+                </div>
+              </div>
+        </div>
+    </footer>
+</body>
+</html>
