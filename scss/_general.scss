@@ -1,0 +1,29 @@
+.col, .grey{
+    color: #5E647A;
+}
+.black, .black-second, .header, .all{
+    background:#1D1E22;;
+    }
+    .a{
+        font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    }
+
+    .container{
+        padding-top: 20px;
+    }
+    
+    h2{
+        font-family: Gilroy;
+    font-size: 32px;
+    font-weight: 600;
+    background: var(--Primary-Gradient, linear-gradient(324deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
